@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "tardisflightcore",
+  "version": "${version}",
+  "name": "TARDIS Flight Core",
+  "description": "Adds an engine component block that every TARDIS must have to take flight. Designed to make TARDIS: Refined more eventful and challenging.",
+  "authors": [
+    "Doc"
+  ],
+  "contact": {
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/tardisflightcore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.doc.tardisflightcore.TardisFlightCore"
+    ],
+    "client": [
+      "com.doc.tardisflightcore.TardisFlightCoreClient"
+    ]
+  },
+  "mixins": [
+    "tardisflightcore.mixins.json"
+  ],
+  "client": {
+    "mixins": [
+      "tardisflightcore.client.mixins.json"
+    ]
+  },
+  "depends": {
+    "fabricloader": "0.15.6",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "0.92.1+1.20.1",
+    "tardis_refined": "2.1.6"
+  }
+}

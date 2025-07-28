@@ -1,0 +1,51 @@
+architectury {
+    common rootProject.enabled_platforms.split(',')
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+
+    // Cardinal Components
+    modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${rootProject.cardinalcomponents_version}"
+    modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-world:${rootProject.cardinalcomponents_version}"
+
+    compileOnly files("libs/fabric-tardis_refined-mc1.20.1-v2.1.6-dev-shadow.jar")
+
+    // Tardis Refined
+    modImplementation "maven.modrinth:tardis-refined:${tardis_refined_version}"
+
+    // Forge Config API Port
+    modImplementation "fuzs.forgeconfigapiport:forgeconfigapiport-fabric:${rootProject.forge_config_api_port_version}"
+
+    implementation name: 'fabric-tardis_refined-mc1.20.1-v2.1.6-dev-shadow'
+}
+
+allprojects {
+    apply plugin: "java"
+    apply plugin: "architectury-plugin"
+    apply plugin: "maven-publish"
+}
+
+repositories {
+    // Modrinth Maven
+    maven {
+     url = "https://api.modrinth.com/maven"
+    }
+
+    // Ladysnake Maven, required for CardinalComponents
+    maven {
+       name = 'Ladysnake Mods'
+       url = 'https://maven.ladysnake.org/releases'
+    }
+
+    // Fuzzs Mod Resources, required for ForgeConfigAPIPort
+     maven {
+        name = "Fuzs Mod Resources"
+        url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/"
+     }
+
+     flatDir {
+        dirs 'libs'
+    }
+}

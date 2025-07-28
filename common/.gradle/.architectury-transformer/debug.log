@@ -1,0 +1,76 @@
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@771cebe9
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@16d6a1d6
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@2177fa9d
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@76994312
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Checking whether /tardisflightcore.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Found mixin config(s): /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Injecting tardisflightcore-common-common-refmap.json to /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 8.509 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0.jar
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@7aaea325
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@528d978e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@1e796241
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@50297cd0
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Checking whether /tardisflightcore.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Found mixin config(s): /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Injecting tardisflightcore-common-common-refmap.json to /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 5.669 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0.jar
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@222317cb
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@39c73d0
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4fb76ca3
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@45bb5604
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Checking whether /tardisflightcore.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Found mixin config(s): /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Injecting tardisflightcore-common-common-refmap.json to /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 20.35 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0.jar
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@6a25cdd5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@448657b6
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@5b8be3ad
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@5aa80f46
+[Architectury Transformer DEBUG] Transforming from C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\devlibs\tardisflightcore-common-1.0.0-dev.jar to C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Checking whether /tardisflightcore.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Found mixin config(s): /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Injecting tardisflightcore-common-common-refmap.json to /tardisflightcore.mixins.json
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 19.52 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\hunts\Documents\Games\Minecraft Mods\tardisflightcore\common\build\libs\tardisflightcore-common-1.0.0.jar

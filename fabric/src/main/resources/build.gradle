@@ -1,0 +1,70 @@
+plugins {
+    id 'com.gradleup.shadow'
+    id 'maven-publish'
+}
+
+architectury {
+    platformSetupLoomIde()
+    fabric()
+}
+
+configurations {
+    common {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentFabric.extendsFrom common
+
+    // Files in this configuration will be bundled into your mod using the Shadow plugin.
+    // Don't use the `shadow` configuration from the plugin itself as it's meant for excluding files.
+    shadowBundle {
+        canBeResolved = true
+        canBeConsumed = false
+    }
+}
+
+repositories {
+    maven { url = "https://api.modrinth.com/maven" }
+    flatDir { dirs rootProject.file("libs") }
+}
+
+dependencies {
+    // Common module (named mappings)
+    modImplementation project(path: ':common', configuration: 'namedElements')
+
+    // Add raw dev jar for access to internal classes
+    modCompileOnly files("libs/fabric-tardis_refined-mc1.20.1-v2.1.6-dev-shadow.jar")
+
+    // Remap the dev-shadow jar for named mappings
+    modImplementation(loom.remapJar(file("${rootProject.projectDir}/libs/fabric-tardis_refined-mc1.20.1-v2.1.6-dev-shadow.jar")))
+
+    // Optional: if you also want runtime Modrinth release version
+    // modRuntimeOnly "maven.modrinth:tardis-refined:${tardis_refined_version}"
+}
+
+processResources {
+    inputs.property 'version', project.version
+
+    filesMatching('fabric.mod.json') {
+        expand version: project.version
+    }
+}
+
+// Only apply shadow + remap when building for release
+if (project.hasProperty("release")) {
+    shadowJar {
+        configurations = [project.configurations.shadowBundle]
+        archiveClassifier = 'shadow'
+    }
+
+    remapJar {
+        dependsOn shadowJar
+        inputFile.set(shadowJar.archiveFile)
+        archiveClassifier.set(null) // Remove 'remap' classifier
+        archiveFileName.set("${project.archivesBaseName}-${project.version}.jar")
+    }
+
+    tasks.build.dependsOn remapJar
+}
