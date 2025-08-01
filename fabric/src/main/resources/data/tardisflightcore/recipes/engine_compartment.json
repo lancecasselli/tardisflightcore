@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "BFB",
+    "IBI"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_block" },
+    "B": { "item": "minecraft:redstone_block" },
+    "F": { "item": "minecraft:furnace" }
+  },
+  "result": {
+    "item": "tardisflightcore:engine_compartment",
+    "count": 1
+  }
+}
